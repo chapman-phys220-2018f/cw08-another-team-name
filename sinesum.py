@@ -52,5 +52,3 @@ def func(t, T=2*np.pi):
         return -1
     else:
         return 0
-
-print(sum(np.pi, 100000))
