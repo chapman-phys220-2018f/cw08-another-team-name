@@ -29,7 +29,7 @@ def sum(t, n, T=2*np.pi):
     Keyword Arguments:
         T -- the T value (default 2*pi)
     """
-    k = np.arange(1, n, 1)
+    k = np.arange(1, n+1, 1)
     s = (1/(2*k-1))*np.sin((2*(2*k-1)*np.pi*t)/(T))
     return (4/np.pi)*np.sum(s)
 
